@@ -1,14 +1,18 @@
-function Header() {
+import React from 'react';
+import Navbar from './Navbar';
+
+const Header = () => {
     return (
-        <nav class="navcontainer">
-            <h1>Justin Schultz</h1>
-            <ul>
-                <li><a href="#aboutme">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contactinfo">Contact</a></li>
-                <li><a href="../resume.html">Resume</a></li>
-            </ul>
-        </nav>
+        <div>
+            <div class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <span class="navbar-brand mb-0 h1">Justin's React Portfolio</span>
+                </div>
+            </div>
+            <nav>
+                <Navbar />
+            </nav>
+        </div>
     );
 };
 
