@@ -3,26 +3,13 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div>
-            <div className="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-                <div className="bg-dark p-4">
-                    <h5 className="text-body-emphasis h4">Collapsed content</h5>
-                    <span className="text-body-secondary">Toggleable via the navbar brand.</span>
-                </div>
-            </div>
-            <nav className="navbar navbar-dark bg-dark">
-                <div className="container-fluid">
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarToggleExternalContent"
-                        aria-controls="navbarToggleExternalContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                </div>
+            <nav class="navbar bg-body-tertiary">
+                <form class="container-fluid justify-content-start">
+                    <button class="btn btn-outline-success me-2" type="button">Projects</button>
+                    <button class="btn btn-sm btn-outline-secondary me-2" type="button">About</button>
+                    <button class="btn btn-sm btn-outline-secondary me-2" type="button">Contact</button>
+                    <button class="btn btn-sm btn-outline-secondary me-2" type="button">Resume</button>
+                </form>
             </nav>
         </div>
     );

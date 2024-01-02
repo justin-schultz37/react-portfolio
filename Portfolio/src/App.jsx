@@ -1,13 +1,16 @@
-import { useState } from 'react'
+
 import Header from '../src/components/Header.jsx';
+import Footer from '../src/components/Footer.jsx';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    < Header />
-  )
+    <>
+      <Header />
+      <Footer />
+    </>
+  );
 }
 
 export default App
