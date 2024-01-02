@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div class="fixed-bottom">
+        <div className="fixed-bottom">
             <h6>Designed by: Justin Schultz</h6>
             <ul>
                 <li>Phone: 971-724-6011</li>
