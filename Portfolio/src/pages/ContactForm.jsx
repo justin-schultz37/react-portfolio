@@ -1,22 +1,50 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const ContactForm = () => {
+    const navigate = useNavigate();
     const [formData, setFormData] = useState({
         name: '',
         email: '',
         message: '',
     });
 
+    const [errors, setErrors] = useState({});
+
     const handleChange = (e) => {
         setFormData({
             ...formData,
             [e.target.name]: e.target.value,
         });
+        setErrors({
+            ...errors,
+            [e.target.name]: '',
+        });
+    };
+
+    const validateEmail = (email) => {
+        // Regular expression for basic email validation
+        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return regex.test(email);
     };
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        // Validate email
+        if (!validateEmail(formData.email)) {
+            setErrors({
+                ...errors,
+                email: 'Please enter a valid email address.',
+            });
+            return;
+        }
+
         console.log('Form submitted:', formData);
+
+        alert(`Thank you, ${formData.name}! I look forward to connecting!`);
+
+        navigate('/ContactForm');
     };
 
     return (
@@ -48,9 +76,10 @@ const ContactForm = () => {
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        className="form-control"
+                        className={`form-control ${errors.email ? 'is-invalid' : ''}`}
                         required
                     />
+                    {errors.email && <div className="invalid-feedback">{errors.email}</div>}
                 </div>
 
                 <div className="mb-3">

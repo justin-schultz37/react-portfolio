@@ -6,7 +6,7 @@
             "title": "JourneyJotter",
             "description": "Jot your journey by dropping a pin on a map and leaving comments about your experience ",
             "github": "https://github.com/justin-schultz37/JourneyJotter",
-            "liveLink": "https://journey-jotter-5bbd0d94cd1b.herokuapp.com/login"
+            "live": "https://journey-jotter-5bbd0d94cd1b.herokuapp.com/login"
         },
         {
             "id": "2",
@@ -15,6 +15,38 @@
             "description": "Ever wonder how food affects your mood? Use Fmood to journal your food entries and add moments of reflection about your your meel makes you feel!",
             "github": "https://github.com/justin-schultz37/Fmood-the-Diatry/tree/main",
             "live": "https://neuroventure.github.io/Fmood-the-Diatry/"
+        },
+        {
+            "id": "3",
+            "src": "/images/jjscreenshot.png",
+            "title": "JourneyJotter",
+            "description": "Jot your journey by dropping a pin on a map and leaving comments about your experience ",
+            "github": "https://github.com/justin-schultz37/JourneyJotter",
+            "live": "https://journey-jotter-5bbd0d94cd1b.herokuapp.com/login"
+        },
+        {
+            "id": "4",
+            "src": "/images/jjscreenshot.png",
+            "title": "JourneyJotter",
+            "description": "Jot your journey by dropping a pin on a map and leaving comments about your experience ",
+            "github": "https://github.com/justin-schultz37/JourneyJotter",
+            "live": "https://journey-jotter-5bbd0d94cd1b.herokuapp.com/login"
+        },
+        {
+            "id": "5",
+            "src": "/images/jjscreenshot.png",
+            "title": "JourneyJotter",
+            "description": "Jot your journey by dropping a pin on a map and leaving comments about your experience ",
+            "github": "https://github.com/justin-schultz37/JourneyJotter",
+            "live": "https://journey-jotter-5bbd0d94cd1b.herokuapp.com/login"
+        },
+        {
+            "id": "6",
+            "src": "/images/jjscreenshot.png",
+            "title": "JourneyJotter",
+            "description": "Jot your journey by dropping a pin on a map and leaving comments about your experience ",
+            "github": "https://github.com/justin-schultz37/JourneyJotter",
+            "live": "https://journey-jotter-5bbd0d94cd1b.herokuapp.com/login"
         }
     ]
 }
