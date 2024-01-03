@@ -168,7 +168,7 @@ img:hover {
 
 .navcontainer ul {
   display: flex;
-  justify-content: end;
+  justify-content: space-around;
   padding-right: 1%;
   padding-bottom: .5%;
 
@@ -211,7 +211,7 @@ img:hover {
   background-color: rgba(0, 0, 0, 0);
   margin-top: 1%;
   color: rgba(143, 82, 2, 0.678);
-  margin-left: 7.5%;
+  margin-left: 2.5%;
 }
 
 #profilepic {

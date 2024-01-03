@@ -1,16 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar bg-body-tertiary">
-                <form className="container-fluid justify-content-start">
-                    <button className="btn btn-outline-success me-2" type="button">Projects</button>
-                    <button className="btn btn-sm btn-outline-secondary me-2" type="button">About</button>
-                    <button className="btn btn-sm btn-outline-secondary me-2" type="button">Contact</button>
-                    <button className="btn btn-sm btn-outline-secondary me-2" type="button">Resume</button>
-                </form>
-            </nav>
+            <ul className="nav">
+                <li><Link to="/"><button>About Me</button></Link></li>
+                <li><Link to="/Project"><button>Projects</button></Link></li>
+                <li><Link to="/ContactForm"><button>Contact</button></Link></li>
+                <li><Link to="/Resume"><button>Resume</button></Link></li>
+            </ul>
         </div>
     );
 };

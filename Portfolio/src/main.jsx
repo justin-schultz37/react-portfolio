@@ -7,7 +7,7 @@ import App from './App.jsx'
 import Project from './pages/Project.jsx';
 import Error from './pages/Error.jsx';
 import AboutMe from './pages/AboutMe.jsx';
-import Contact from './pages/Contact.jsx';
+import ContactForm from './pages/ContactForm.jsx';
 import Resume from './pages/Resume.jsx';
 import './index.css';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -20,15 +20,15 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Project />,
+        element: <AboutMe />,
       },
       {
-        path: '/AboutMe',
-        element: < AboutMe />
+        path: '/Project',
+        element: < Project />
       },
       {
-        path: '/Contact',
-        element: < Contact />
+        path: '/ContactForm',
+        element: < ContactForm />
       },
       {
         path: '/Resume',
