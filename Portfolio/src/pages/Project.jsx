@@ -10,8 +10,11 @@ const Project = () => {
                     <div className="card-body">
                         <h5 className="card-title">{project.title}</h5>
                         <p className="card-text">{project.description}</p>
-                        <a href={project.githubLink} className="btn btn-warning" target="_blank" rel="noopener noreferrer">
+                        <a href={project.github} className="btn btn-warning btn-spacing" target="_blank" rel="noopener noreferrer">
                             Github
+                        </a>
+                        <a href={project.live} className="btn btn-warning" target="_blank" rel="noopener noreferrer">
+                            Deployed Application
                         </a>
                     </div>
                 </div>

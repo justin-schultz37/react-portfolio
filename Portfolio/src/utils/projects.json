@@ -5,7 +5,7 @@
             "src": "/images/jjscreenshot.png",
             "title": "JourneyJotter",
             "description": "Jot your journey by dropping a pin on a map and leaving comments about your experience ",
-            "githubLink": "https://github.com/justin-schultz37/JourneyJotter",
+            "github": "https://github.com/justin-schultz37/JourneyJotter",
             "liveLink": "https://journey-jotter-5bbd0d94cd1b.herokuapp.com/login"
         },
         {
@@ -13,8 +13,8 @@
             "src": "/images/fmood.png",
             "title": "Fmood, the Diatry",
             "description": "Ever wonder how food affects your mood? Use Fmood to journal your food entries and add moments of reflection about your your meel makes you feel!",
-            "githubLink": "https://github.com/justin-schultz37/Fmood-the-Diatry/tree/main",
-            "liveLink": "https://neuroventure.github.io/Fmood-the-Diatry/"
+            "github": "https://github.com/justin-schultz37/Fmood-the-Diatry/tree/main",
+            "live": "https://neuroventure.github.io/Fmood-the-Diatry/"
         }
     ]
 }
