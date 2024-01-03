@@ -1,19 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import data from '../utils/projects.json';
 
 const Project = () => {
-    const [projects, setProjects] = useState([]);
-
-    useEffect(() => {
-        // Fetch data from the JSON file
-        fetch('/utils/projects.json')
-            .then((response) => response.json())
-            .then((data) => setProjects(data.projects))
-            .catch((error) => console.error('Error fetching projects:', error));
-    }, []);
-
     return (
         <div>
-            {projects.map((project) => (
+            {data?.projects?.map((project) => (
                 <div key={project.id} className="card" style={{ width: '18rem' }}>
                     <img src={project.src} className="card-img-top" alt={project.title} />
                     <div className="card-body">
