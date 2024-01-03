@@ -149,14 +149,14 @@ header {
 }
 
 /* Attributes that style all images on the webpage */
-img {
+/* img {
   opacity: .5;
-}
+} */
 
 /* Styling the hover effect when images are hovered over */
-img:hover {
+/* img:hover {
   opacity: 1;
-}
+} */
 
 /* Styling the Navigation Container, ul, li, h1, and a elements */
 .navcontainer {

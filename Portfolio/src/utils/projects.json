@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": "1",
-            "src": "/public/images/jjscreenshot.png",
+            "src": "/images/jjscreenshot.png",
             "title": "JourneyJotter",
             "description": "Jot your journey by dropping a pin on a map and leaving comments about your experience ",
             "githubLink": "https://github.com/justin-schultz37/JourneyJotter",
