@@ -16,37 +16,14 @@
             "github": "https://github.com/justin-schultz37/Fmood-the-Diatry/tree/main",
             "live": "https://neuroventure.github.io/Fmood-the-Diatry/"
         },
+
         {
             "id": "3",
-            "src": "/images/jjscreenshot.png",
-            "title": "JourneyJotter",
-            "description": "Jot your journey by dropping a pin on a map and leaving comments about your experience ",
-            "github": "https://github.com/justin-schultz37/JourneyJotter",
-            "live": "https://journey-jotter-5bbd0d94cd1b.herokuapp.com/login"
-        },
-        {
-            "id": "4",
-            "src": "/images/jjscreenshot.png",
-            "title": "JourneyJotter",
-            "description": "Jot your journey by dropping a pin on a map and leaving comments about your experience ",
-            "github": "https://github.com/justin-schultz37/JourneyJotter",
-            "live": "https://journey-jotter-5bbd0d94cd1b.herokuapp.com/login"
-        },
-        {
-            "id": "5",
-            "src": "/images/jjscreenshot.png",
-            "title": "JourneyJotter",
-            "description": "Jot your journey by dropping a pin on a map and leaving comments about your experience ",
-            "github": "https://github.com/justin-schultz37/JourneyJotter",
-            "live": "https://journey-jotter-5bbd0d94cd1b.herokuapp.com/login"
-        },
-        {
-            "id": "6",
-            "src": "/images/jjscreenshot.png",
-            "title": "JourneyJotter",
-            "description": "Jot your journey by dropping a pin on a map and leaving comments about your experience ",
-            "github": "https://github.com/justin-schultz37/JourneyJotter",
-            "live": "https://journey-jotter-5bbd0d94cd1b.herokuapp.com/login"
+            "src": "/images/spendsmart.png",
+            "title": "SpendSmart",
+            "description": "A simply strategy to manage your home budget",
+            "github": "https://github.com/justin-schultz37/spend-smart",
+            "live": "https://spendsmart-yq4j.onrender.com/"
         }
     ]
 }
